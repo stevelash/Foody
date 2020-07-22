@@ -1,0 +1,571 @@
+/* Queries Up */
+/* Mobile */
+@media screen and (min-width: 576px) {
+    .banner-text{
+        top: 50%;
+    }
+    
+    .disco{
+        width: 100%;
+    }
+
+    .nav-list{
+        left: 55%;
+        margin-top: -14px;
+    }
+
+    .nav-list li a{
+         font-size: 15px;
+    }
+
+    
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .banner-text h2{
+        font-size: 34px;
+    }
+
+    .banner-text p{
+        font-size: 18px;
+    }
+
+    .brand h3{
+        font-size: 38px;
+    }
+
+    .nav-list{
+        left: 79%;
+        margin-top: 11px;
+    }
+
+    .nav-list li a {
+        font-size: 23px;
+    }
+
+     /* Discovery */
+    .disco{
+        width: 50%;
+        padding-top: 81px;
+        padding-left: 80px;
+       
+       }
+
+    .ceo-image{
+     margin-left: 0;
+    }
+
+    .ceo-image img{
+     width: 113px;
+     height: 113px;
+    }
+
+    .ceo-foody h2{
+        font-size: 28px;
+    }
+    .ceo-foody p{
+        font-size: 24px;
+    }
+
+    .disco-h{
+     font-size: 25px;
+     padding-left: 6px;
+   }
+       
+    .disco-h p{
+     font-size: 19px;
+    } 
+
+    .picture{
+        width: 50%;
+        display: block;
+    }
+
+    .picture img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+
+
+    }
+       
+
+    /* second nav */
+
+    #unset{
+     display: block;
+    }
+
+    .nav-list2{
+     padding: 1px;
+    }
+
+    .nav-list2 ul {
+     display: flex;
+     justify-content: center;
+     margin-left: 25px;
+    }
+
+    .nav-list2 ul li{
+     margin: 15px 5px;
+     font-size: 18px;
+    }
+
+  /* three images section */
+
+    .img-nav{
+        width: 100%;
+        display: block;
+    }
+
+    .img-con{
+     width: 100%;
+     display: flex;
+    }
+
+    .img-nav1{
+     width: 33.33%;
+     height: -webkit-fill-available;
+     object-fit: cover;
+    }
+
+    #img-nav2{
+        margin-bottom: 4px;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/mohau-mannathoko-upvUrxqrmro-unsplash.jpg);
+        width: 33.33%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img-nav1 img{
+     width: 100%;
+    }
+
+    #heromid{
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     width: 100%;
+    }
+
+    .img-text{
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 50px;
+    }
+
+   /* chose section */
+    .chose-nav ul{
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+    }
+
+    .chose-h{
+     font-size: 28px;
+    }
+
+    .chose-nav li{
+     list-style-type: none;
+     margin: 11px 13px;
+     font-size: 16px;
+        
+    }
+
+    /* box shadow */
+    .box-shadow{
+        display: flex;
+    }
+
+    .shadow{
+        width: 50%;
+    }
+    .align{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;   
+    }
+
+    .food{
+        width: 277px;
+        height: 77px;
+    }
+
+    .price h6{
+        font-size: 14px;
+    }
+
+    .shadow-2{
+        display: block;
+        width: 50%;
+    }
+
+    .align-two{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* reservation section */
+    .reserve{
+        height: 340px;
+    }
+    .form{
+        align-items: center;
+        padding-top: 64px;
+    }
+
+    #action{
+        display: flex;
+    }
+
+    .date, .time, .name{
+        padding: 5px;
+    }
+
+    input[type=name]{
+        width: 146px;
+        padding: 10px
+    }
+
+    .sub{
+        margin-top: 14px;
+    }
+    /* end of reservation  */
+    /* chef section  */
+    #chief{
+        display: block;
+    }
+
+    .chef-section{
+        height: 470px;
+    }
+
+    .chef-text{
+        padding-top: 55px;
+    }
+
+    .chef-text h1{
+        font-size: 45px;
+    }
+
+    .chef-text h5{
+        font-size: 35px;
+    }
+
+    .cheffy-text{
+     font-size: 18px;
+    }
+
+    .cheffy img{
+        margin: 10px;
+        width: 140px;
+        height: 180px;
+    }
+
+    /* End of chef  */
+    /* Subscription Section  */
+
+    #email{
+        padding: 9px 10em 14px 32px;
+    }
+
+
+}
+/* Destop */
+@media screen and (min-width: 992px) {
+    .top-nav {
+        display: block;
+        padding-top: 8px;
+    }
+
+    .brand{
+        margin: 0 4px 0 32px;
+    }
+
+    .brand h3{
+        font-size: 45px
+    }
+
+    .toggle-btn {
+        display: none;
+    }
+
+    .banner{
+        height: 600px;
+    }
+    .banner-text h2{
+        font-size: 40px;
+    }
+    .banner-text p{
+        font-size: 18px;
+    }
+    
+    .nav-list{
+      background: none;
+    }
+
+    
+    .nav-list li{
+        border: none;
+    }
+
+    .nav-list li a {
+     font-size: 25px;
+    }
+
+    .nav-list {
+     border: none;
+     font-size: 20px;
+     list-style-type: none;
+     justify-content: flex-end;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     left: unset;
+     right: 45px;
+     top:  unset;
+     background-color: transparent;
+     transition: 0.5s ease;
+    }
+
+    .book{
+     padding: 18px 36px;
+    }
+
+    /* Discovery */
+    .ceo-foody h2{
+        font-size: 30px;
+    }
+
+    .ceo-foody p{
+     font-size: 25px;
+    }
+
+    .ceo-image img{
+     width: 144px;
+     height: 144px;
+    }
+       
+    .disco-h h2{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     text-align: start;
+    }
+
+    .disco-h{
+       margin-bottom: 120px;
+       padding-top: 75px; 
+    }
+
+    .disco-h p{
+     font-size: 20px;
+    } 
+    
+    .ceo-image{
+     padding-right: 10px;
+     margin: unset; 
+    }
+
+    .picture{
+     display: block;
+    }
+
+    /* second nav */
+    #unset{
+     display: block;
+    }
+
+    .nav-list2{
+     padding: 2px;
+    }
+
+    .nav-list2 ul {
+     display: flex;
+     justify-content: center;
+     margin-left: 25px;
+    }
+
+    .nav-list2 ul li{
+     font-size: 22px;
+    }
+
+   /* three images section */
+    .img-text{
+     padding-top: 77px;
+    }
+    /* Choose section */
+    .chose{
+        width: 100%;
+        margin-bottom: 33px;
+       }
+
+    .chose-nav{
+        text-align: center;        
+    }
+
+    .chose-h{
+     text-align: center;
+     font-size: 40px;
+     padding-top: 65px;
+    }
+
+    .chose-nav li{
+     list-style-type: none;
+     margin: 16px 30px;
+     font-size: 25px;     
+    }
+
+    .chose-nav li a{
+     text-decoration: none;
+     color: black;
+    }
+
+    /* box shadow section */
+
+    .food{
+     width: 375px;
+     height: 95px;
+     margin:20px;
+    }
+
+    .food img{
+     width: 100px;
+    }
+
+    .food-text h5{
+     font-size: 23px;
+    }
+
+    .food-text p{
+     font-size: 16px;
+     font-weight: bolder;
+    }
+
+    .price{
+     margin: 6px 32px 7px 50px;
+    }
+
+   .price h6{
+     font-size: 19px;
+    }
+
+    /* reservation center */
+    .reserve{
+        height: 400px;
+    }
+    .reserve-text{
+        padding-top: 92px;
+        padding-bottom: 54px;
+    }
+    .form{
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    #action{
+        display: flex;
+    }
+
+    .date, .time, .name{
+        padding: 5px;
+    }
+
+    input[type=name], input[type=date], input[type=time]{
+        width: 146px;
+    }
+
+    input[type=name]{
+        width: 146px;
+        padding: 10px
+    }
+
+    .sub{
+     margin-top: 13px;
+     margin-left: 5px;
+    }
+    /* end of reservation */
+    /* chef section  */
+    .chef-section{
+        height: 500px;
+    }
+
+    .chief{
+        display: block;
+    }
+
+    .chef-text{
+        padding-top: 60px;
+    }
+
+    .chef-text h1{
+        font-size:  50px;
+    }
+
+    .chef-text h5{
+        font-size: 40px;
+    }
+
+    .cheffy-text{
+     font-size: 20px;
+    }
+
+    .cheffy img{
+     width: 150px;
+     height: 200px;
+     margin: 14px;
+    }
+
+     /* End of chef  */
+    /* Subscription Section  */
+    .subscribe{
+      height: 360px;
+    }
+
+    .subscribe-text h1{
+        font-size: 40px
+    }
+
+    .subscribe-text h5{
+        font-size: 25px;
+        padding-bottom: 67px;
+    }
+
+    #email{
+        padding: 20px 17em 20px 16px;
+        font-size: 16px;
+    }
+
+    #submit{
+     padding: 15px 23px 15px 23px;
+     margin: 6px; 
+     font-size: 14px;
+    }
+}
+
+/* Large Desktop */
+@media screen and (min-width: 1200px) {
+  
+    
+}
+
+/* Queries Down */
+@media screen and (max-width: 575.98px) {
+}
+
+@media screen and (max-width: 767.98px) {
+    
+}
+
+@media screen and (max-width: 991.98px) {
+}
+
+@media screen and (max-width: 1199.98px) {
+    
+}
